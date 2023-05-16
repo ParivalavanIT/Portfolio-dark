@@ -122,7 +122,7 @@ img {
         border-right: 1px solid rgba(255, 255, 255, 0.7);
         backdrop-filter: blur(50px);
         border-radius: 2rem;
-        transition: 2s ;
+        transition: 0.5s ;
     }
 }
 
@@ -481,6 +481,21 @@ img {
         row-gap: 50px;
     }
 }
+  /* Media Query for low resolution  Tablets, Ipads */
+  @media (min-width: 481px) and (max-width: 767px) {
+   .work-card{
+    flex-direction: row;
+    gap: 50px;
+   }
+  }
+
+  /* Media Query for Tablets Ipads portrait mode */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .work-card {
+            flex-direction: row;
+            gap: 50px;
+        }
+  }
 /* Contact */
 
 .control_input {

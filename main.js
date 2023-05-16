@@ -1,8 +1,8 @@
 // SHOW MENU
 
-const showMenu = (toggleId, navId) => {
+const showMenu = (toggleId, naId) => {
   const toggle = document.getElementById(toggleId),
-    nav = document.getElementById(navId);
+    nav = document.getElementById(naId);
     toggle.addEventListener("click", () => {
       nav.classList.toggle("show");
     });
