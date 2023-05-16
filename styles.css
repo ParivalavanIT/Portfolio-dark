@@ -25,8 +25,8 @@
     --nomral-font-size: 0.938rem;
 }
 
-/* Media Screen Min-Width : 768px */
-@media screen and (min-width: 768px) {
+/* Media Screen Min-Width :720px */
+@media screen and (min-width:720px) {
     :root {
         --big-font-size: 3.5rem;
         --h2-font-size: 2rem;
@@ -108,7 +108,7 @@ img {
     font-weight: var(--font-semi);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 700px) {
     .nav_menu {
         position: absolute;
         top: calc(var(--header-height) + 20px);
@@ -175,7 +175,7 @@ img {
 .show {
     left: 10%;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width:720px) {
     .nav {
         height: calc(var(--header-height) + 1rem);
     }
@@ -280,7 +280,7 @@ img {
 .home_social-icon:hover {
     color: var(--first-color);
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width:720px){
     .hello {
             color:var(--first-color);
             font-size: 5rem;
@@ -302,7 +302,7 @@ img {
         }
    
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width:720px) {
     .intro {
             line-height: 5rem;
         }
@@ -362,7 +362,7 @@ img {
     color: var(--second-color);
     margin-bottom: 30px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width:720px) {
 .skill-grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -490,7 +490,7 @@ img {
   }
 
   /* Media Query for Tablets Ipads portrait mode */
-  @media (min-width: 768px) and (max-width: 1024px) {
+  @media (min-width:720px) and (max-width: 1024px) {
     .work-card {
             flex-direction: row;
             gap: 50px;
