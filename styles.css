@@ -60,7 +60,6 @@ body {
     font-family: var(--body-font);
     font-size: var(--nomral-font-size);
     background-image: var(--gardient-color);
-    width: 100vh;
 }
 
 h1,
