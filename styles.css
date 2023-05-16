@@ -107,8 +107,7 @@ img {
     align-items: center;
     font-weight: var(--font-semi);
 }
-
-@media screen and (max-width: 700px) {
+@media screen and (max-width:800px) {
     .nav_menu {
         position: absolute;
         top: calc(var(--header-height) + 20px);
@@ -280,7 +279,7 @@ img {
 .home_social-icon:hover {
     color: var(--first-color);
 }
-@media screen and (max-width:720px){
+@media screen and (max-width:800px){
     .hello {
             color:var(--first-color);
             font-size: 5rem;
@@ -362,7 +361,7 @@ img {
     color: var(--second-color);
     margin-bottom: 30px;
 }
-@media screen and (max-width:720px) {
+@media screen and (max-width:800px) {
 .skill-grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
