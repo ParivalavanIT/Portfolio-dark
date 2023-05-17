@@ -175,11 +175,13 @@
                 <form name="contact" action="https://formsubmit.co/parivalavan2345@gmail.com" method="POST" >
                     <input type="text" placeholder="Name" class="control_input" data-aos="fade-right"  data-aos-delay="250" name="name" required />
                     <input type="mail" placeholder="Email" class="control_input"  data-aos="fade-right"  data-aos-delay="300" name="email" required/>
-                    <textarea name="" id="" cols="0" rows="10" class="control_input" 
+                    <textarea name="_subject" id="" cols="0" rows="10" class="control_input" 
                       data-aos="fade-right"  data-aos-delay="350" ></textarea>
         
                     <button  class="control_button button"
                     type="submit">Send</button>
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_autoresponse" value="Thanks for your message we will contact you soon">
                 </form>
             </div>
         </section>
