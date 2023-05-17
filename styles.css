@@ -246,7 +246,9 @@ img {
     color: var(--second-color);
     border: solid var(--second-color) 1px;
 }
-
+p i{
+    color: var(--second-color);
+}
 .btn-outline {
     display: flex;
     background-color: transparent;
@@ -555,10 +557,18 @@ main{
     }
     
     .btn {
-        width: 70%;
+        width: 60%;
     }
     
     .btn-holder {
          flex-direction: column;
     }
+}
+.icon-align{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.icon-align i{
+    color: var(--second-color);
 }
