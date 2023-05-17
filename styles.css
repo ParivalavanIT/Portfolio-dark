@@ -63,12 +63,7 @@ body {
     font-family: var(--body-font);
     background-image: var(--gardient-color);
 }
-.skill-sets h1{
-    font-size: 1rem;
-}
-.skill-sets h3{
-    font-size: 0.9rem;
-}
+
 h1,
 h2,
 p {
@@ -349,6 +344,13 @@ main{
     color: var(--second-color);
     margin-bottom: 30px;
 }
+.skill-sets h1 {
+    font-size: 1rem;
+}
+
+.skill-sets h3 {
+    font-size: 0.9rem;
+}
 
 /* services */
 
@@ -462,8 +464,36 @@ main{
 .work-grid {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        row-gap: 50px;
+        column-gap: 50px;
     }
+        .description h1 {
+            font-size: 2rem;
+            margin-bottom: 4%;
+        }
+    
+        .content {
+            padding: 10%;
+        }
+    
+        .description p {
+            font-size: 1.6rem;
+        }
+    
+        .description i {
+            font-size: 6rem;
+            color: var(--second-color);
+        }
+        .skill-sets h1 {
+            font-size: 2rem;
+        }
+    
+        .skill-sets h3 {
+            font-size: 1.8rem;
+        }
+        .skill-sets i {
+            font-size: 10rem;       
+            margin-bottom: 60px;
+                }
 }
 
 /* Contact */
@@ -488,6 +518,7 @@ main{
     font-size: var(--nomral-font-size);
     cursor: pointer;
     margin-left: auto;
+
 }
 .button {
     display: inline-block;

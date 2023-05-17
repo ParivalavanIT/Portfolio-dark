@@ -172,14 +172,14 @@
             <div class="topic"  data-aos="flip-up">Contact</div>
         
             <div class="contact_container">
-                <form name="contact" >
-                    <input type="text" placeholder="Name" class="control_input" data-aos="fade-right"  data-aos-delay="250" />
-                    <input type="mail" placeholder="Email" class="control_input"  data-aos="fade-right"  data-aos-delay="300"/>
+                <form name="contact" action="https://formsubmit.co/parivalavan2345@gmail.com" method="POST" >
+                    <input type="text" placeholder="Name" class="control_input" data-aos="fade-right"  data-aos-delay="250" name="name" required />
+                    <input type="mail" placeholder="Email" class="control_input"  data-aos="fade-right"  data-aos-delay="300" name="email" required/>
                     <textarea name="" id="" cols="0" rows="10" class="control_input" 
                       data-aos="fade-right"  data-aos-delay="350" ></textarea>
         
-                    <input value="Send" type="button" 
-                        class="control_button button" data-aos="fade-right"/>
+                    <button  class="control_button button"
+                    type="submit">Send</button>
                 </form>
             </div>
         </section>
@@ -207,7 +207,7 @@
         AOS.init({
                 duration: 1200,
                 once: false,
-                mirror: false,
+                mirror: true,
             });
     </script>
 </body>
