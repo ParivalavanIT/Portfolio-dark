@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    
 
 </head>
 <body>
@@ -47,30 +49,31 @@
     <main class="bd_grid">
         <section id="home">
             <div class="home">
-                            <h1 class="hello">Hello<span>.</span></h1>
-                            <h3 class="intro">I'm <span>Parivalavan</span></h3>
-                            <p>A web developer web designer I help the startups in creating thier logo and UI/UX designs for thier apps and websites. 
-                            </p>
-                            <div class="btn-holder">
+                        <h1 class="hello"  data-aos="flip-up" data-aos-delay="200">Hello<span>.</span></h1>
+                        <h3 class="intro"  data-aos="flip-up" data-aos-delay="300">I'm <span >Parivalavan</span></h3>
+                        <p  data-aos="flip-down"data-aos-delay="400">A web developer web designer I help the startups in creating thier logo and UI/UX designs for thier apps and
+                            websites.
+                        </p>
+                            <div class="btn-holder" data-aos="fade-right" data-aos-delay="500">
                                     <a href="#contact" class="btn">Contact</a>
                                     <div class="btn btn-outline icon-align"><i class='bx bx-cloud-download'></i><a href="./assets/Parivalavan CV.pdf" download>Download CV</a></div>
                             </div>
                             <div class="home_social">
-                                <a href="https://www.facebook.com/parivalavan.manikandan" class="home_social-icon" ><i
+                                <a href="https://www.facebook.com/parivalavan.manikandan" class="home_social-icon" data-aos="fade-right" data-aos-delay="600"><i
                                         class="bx bxl-facebook-circle"></i></a>
-                                <a href="https://www.instagram.com/parivalavan_/" class="home_social-icon"><i class="bx bxl-instagram"></i></a>
-                                <a href="https://twitter.com/parivalavanit" class="home_social-icon" ><i
+                                <a href="https://www.instagram.com/parivalavan_/" class="home_social-icon" data-aos="fade-right" data-aos-delay="650"><i class="bx bxl-instagram"></i></a>
+                                <a href="https://twitter.com/parivalavanit" class="home_social-icon" data-aos="fade-right" data-aos-delay="700"><i
                                         class="bx bxl-twitter"></i></a>
-                                <a href="https://github.com/ParivalavanIT" class="home_social-icon" ><i
+                                <a href="https://github.com/ParivalavanIT" class="home_social-icon" data-aos="fade-right" data-aos-delay="750"><i
                                         class="bx bxl-github"></i></a>
                             </div>
             </div>
         </section>
         <section id="skills">
-            <div class="topic">
+            <div class="topic"  data-aos="flip-up">
                 Skills
             </div>
-            <div class="skill-grid">
+            <div class="skill-grid" data-aos="fade-right">
                 <div class="skill-sets">
                 <i class='bx bxl-html5'></i>
                     <h1>HTML</h1>
@@ -108,8 +111,8 @@
             </div>
         </section>
         <section id="services">
-            <div class="topic">Services</div>
-            <div class="service-grid">
+            <div class="topic"  data-aos="flip-up">Services</div>
+            <div class="service-grid" data-aos="fade-right">
                 <div class="description">
                    <div class="logo"><i class='bx bxs-pen'></i></div>
                     <div class="content">
@@ -140,8 +143,8 @@
             </div>
         </section>
         <section id="work">
-            <div class="topic">Works</div>
-            <div class="work-grid">
+            <div class="topic"  data-aos="flip-up">Works</div>
+            <div class="work-grid" data-aos="fade-right">
                 <div class="work-card">
                    
                     <div class="work-img">
@@ -166,17 +169,17 @@
             </div>
         </section>
         <section class="contact section" id="contact">
-            <div class="topic" data-aos="fade-down">Contact</div>
+            <div class="topic"  data-aos="flip-up">Contact</div>
         
             <div class="contact_container">
-                <form name="contact" netlify>
-                    <input type="text" placeholder="Name" class="control_input"  />
-                    <input type="mail" placeholder="Email" class="control_input"  />
+                <form name="contact" >
+                    <input type="text" placeholder="Name" class="control_input" data-aos="fade-right"  data-aos-delay="250" />
+                    <input type="mail" placeholder="Email" class="control_input"  data-aos="fade-right"  data-aos-delay="300"/>
                     <textarea name="" id="" cols="0" rows="10" class="control_input" 
-                       ></textarea>
+                      data-aos="fade-right"  data-aos-delay="350" ></textarea>
         
                     <input value="Send" type="button" 
-                        class="control_button button"/>
+                        class="control_button button" data-aos="fade-right"/>
                 </form>
             </div>
         </section>
@@ -184,7 +187,7 @@
     </main>
     <!-- Footer Section -->
     <footer class="footer" id="footer">
-        <p class="footer_title" data-aos="fade-down">Parivalavan</p>
+        <p class="footer_title" >Parivalavan</p>
     
         <div class="footer_socials">
             <a href="https://www.facebook.com/parivalavan.manikandan" class="footer_icon"><i
@@ -198,6 +201,14 @@
          Find the surprise present inside this website
         </p>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./main.js"></script>
+    <script>
+        AOS.init({
+                duration: 1200,
+                once: false,
+                mirror: false,
+            });
+    </script>
 </body>
 </html>
