@@ -43,6 +43,8 @@ function frameLooper() {
   } else {
     clearTimeout(timer);
   }
-  loopTimer = setTimeout("frameLooper()", 150); /* change 70 for speed */
+  loopTimer = setTimeout("frameLooper()", 200); /* change 70 for speed */
 }
 frameLooper();
+
+
