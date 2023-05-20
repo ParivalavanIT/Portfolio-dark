@@ -62,6 +62,7 @@ html {
 body {
     font-family: var(--body-font);
     background-image: var(--gardient-color);
+    overflow-x: hidden;
 }
 
 h1,
