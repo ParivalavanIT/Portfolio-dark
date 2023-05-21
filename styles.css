@@ -166,7 +166,10 @@ img {
         width: 80%;
         padding: 2rem;
         background: rgba(255, 254, 254, 0.039);
-        box-shadow: 0 8px 10px 0 rgba(31, 116, 135, 0.5);
+        box-shadow: 0 2px 5px 0 rgba(100, 208, 232, 0.5);
+        border-top: 1px solid rgba(255, 255, 255, 0.7);
+        border-right: 1px solid rgba(255, 255, 255, 0.7);
+        backdrop-filter: blur(100px);
         border-radius: 2rem;
         transition: 0.5s;
     }
