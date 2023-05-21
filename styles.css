@@ -98,7 +98,7 @@ img {
     top: 0;
     left: 0;
     z-index: 1000;
-    background:var(--gardient-color) ;
+    background:transparent ;
 }
 
 /* Navbar */
@@ -167,9 +167,6 @@ img {
         padding: 2rem;
         background: rgba(255, 254, 254, 0.039);
         box-shadow: 0 8px 10px 0 rgba(31, 116, 135, 0.5);
-        border-top: 1px solid rgba(255, 255, 255, 0.7);
-        border-right: 1px solid rgba(255, 255, 255, 0.7);
-        backdrop-filter: blur(50px);
         border-radius: 2rem;
         transition: 0.5s;
     }
@@ -335,7 +332,7 @@ main{
     box-shadow: 0 2px 5px 0 rgba(100, 208, 232, 0.5);
     border-top: 1px solid rgba(255, 255, 255, 0.7);
     border-right: 1px solid rgba(255, 255, 255, 0.7);
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(100px);
     border-radius: 0.5rem;
     padding: 2rem;
     min-width: 45%;

@@ -46,5 +46,20 @@ function frameLooper() {
   loopTimer = setTimeout("frameLooper()", 200); /* change 70 for speed */
 }
 frameLooper();
-
+//vanta js library
+VANTA.NET({
+  el: "#your-element-selector",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: true,
+  minHeight: 200.0,
+  minWidth: 200.0,
+  scale: 1.0,
+  scaleMobile: 1.0,
+  points: 10.0,
+  maxDistance: 15.0,
+  spacing: 15.0,
+  color: 0x57e8e8,
+  backgroundColor: 0x2d2d2d
+});
 
