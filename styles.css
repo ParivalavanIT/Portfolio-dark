@@ -98,7 +98,7 @@ img {
     top: 0;
     left: 0;
     z-index: 1000;
-    background:var(--gardient-color) ;
+    background:#2d2d2d;
 }
 
 /* Navbar */

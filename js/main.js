@@ -48,7 +48,7 @@ function frameLooper() {
 frameLooper();
 //vanta js library
 VANTA.NET({
-  el: "#your-element-selector",
+  el: "#home",
   mouseControls: true,
   touchControls: true,
   gyroControls: true,
@@ -59,7 +59,70 @@ VANTA.NET({
   points: 10.0,
   maxDistance: 15.0,
   spacing: 15.0,
-  color: 0x57e8e8,
-  backgroundColor: 0x2d2d2d
+  color: 0xa0f1ea,
+  backgroundColor: 0x2d2d2d,
 });
-
+VANTA.DOTS({
+  el: "#skills",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.0,
+  minWidth: 200.0,
+  scale: 1.0,
+  scaleMobile: 1.0,
+  color: 0xa0f1ea,
+  color2: 0x2d2d2d,
+  backgroundColor:0x2d2d2d
+});
+VANTA.DOTS({
+  el: "#services",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.0,
+  minWidth: 200.0,
+  scale: 1.0,
+  scaleMobile: 1.0,
+  color: 0xa0f1ea,
+  color2: 0x2d2d2d,
+  backgroundColor: 0x2d2d2d,
+});
+VANTA.DOTS({
+  el: "#contact",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.0,
+  minWidth: 200.0,
+  scale: 1.0,
+  scaleMobile: 1.0,
+  color: 0xa0f1ea,
+  color2: 0x2d2d2d,
+  backgroundColor: 0x2d2d2d,
+});
+VANTA.DOTS({
+  el: "#work",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.0,
+  minWidth: 200.0,
+  scale: 1.0,
+  scaleMobile: 1.0,
+  color: 0xa0f1ea,
+  color2: 0x2d2d2d,
+  backgroundColor: 0x2d2d2d,
+});
+VANTA.TRUNK({
+  el: "#footer",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.0,
+  minWidth: 200.0,
+  scale: 1.0,
+  scaleMobile: 1.0,
+  color: 0xa0f1ea,
+  backgroundColor: 0x2d2d2d,
+});
