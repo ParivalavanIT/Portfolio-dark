@@ -92,6 +92,7 @@ img {
 .bd_grid {
   padding: 0% 5%;
 }
+
 .header {
     width: 100%;
     position: fixed;
@@ -109,7 +110,6 @@ img {
     align-items: center;
     font-weight: var(--font-semi);
 }
-
 
 .nav_items {
     margin-bottom: var(--mb-4);
@@ -200,6 +200,7 @@ img {
 }
 /* home section */
 #home{
+    margin-top: var(--header-height);
  padding-top: var(--header-height);
  height: 100vh;
  display: flex;
@@ -292,6 +293,14 @@ main{
 }
 
 /* Sections */
+#home,
+#skills,
+#services,
+#work,
+#contact{
+    width: 100%;
+    overflow-x: hidden;
+}
 #skills,#services,#work,#contact{
     display: flex;
     flex-direction: column;
@@ -593,7 +602,6 @@ main{
         color: var(--first-color);
         font-size: 5rem;
     }
-    
     .intro {
         line-height: 5rem;
         font-size: 3rem;
