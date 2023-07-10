@@ -202,7 +202,7 @@ padding: 0% 15%;
 /* home section */
 #home{
     margin-top: var(--header-height);
- padding-top: var(--header-height);
+
  display: flex;
  align-items: center;
  height: 100vh;
