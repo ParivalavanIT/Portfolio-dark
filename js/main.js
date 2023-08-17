@@ -43,7 +43,7 @@ function frameLooper() {
   } else {
     clearTimeout(timer);
   }
-  loopTimer = setTimeout("frameLooper()", 200); /* change 70 for speed */
+  loopTimer = setTimeout("frameLooper()", 500); /* change 70 for speed */
 }
 frameLooper();
 //vanta js library
